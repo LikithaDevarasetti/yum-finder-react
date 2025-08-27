@@ -1,8 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star } from "lucide-react";
 import heroImage from "@/assets/hero-food.jpg";
+import { useState } from "react";
 
 const HeroSection = () => {
+  const [isOrdering, setIsOrdering] = useState(false);
+
+  const handleOrderNow = () => {
+    setIsOrdering(true);
+    // Scroll to featured section
+    const featuredSection = document.querySelector('#featured-section');
+    featuredSection?.scrollIntoView({ behavior: 'smooth' });
+    setTimeout(() => setIsOrdering(false), 1000);
+  };
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -40,12 +50,22 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group">
-            Order Now
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
+            onClick={handleOrderNow}
+            disabled={isOrdering}
+          >
+            {isOrdering ? "Loading..." : "Order Now"}
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           
-          <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+            onClick={() => document.querySelector('#featured-section')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Browse Restaurants
           </Button>
         </div>

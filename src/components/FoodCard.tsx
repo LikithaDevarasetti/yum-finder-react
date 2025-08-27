@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Star, Clock, Plus } from "lucide-react";
+import { useCart } from "@/contexts/CartContext";
+import { useToast } from "@/hooks/use-toast";
 
 interface FoodCardProps {
   name: string;
@@ -13,6 +15,28 @@ interface FoodCardProps {
 }
 
 const FoodCard = ({ name, description, price, image, rating, deliveryTime, restaurant }: FoodCardProps) => {
+  const { addItem, openCart } = useCart();
+  const { toast } = useToast();
+
+  const handleAddToCart = () => {
+    addItem({
+      id: `${name}-${restaurant}`,
+      name,
+      price,
+      image,
+      restaurant
+    });
+    
+    toast({
+      title: "Added to cart!",
+      description: `${name} has been added to your cart.`,
+    });
+  };
+
+  const handleQuickAdd = () => {
+    handleAddToCart();
+    openCart();
+  };
   return (
     <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1">
       <div className="aspect-[4/3] relative overflow-hidden">
@@ -24,6 +48,7 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         <Button 
           size="icon" 
           className="absolute top-3 right-3 bg-white/90 hover:bg-white text-primary shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300"
+          onClick={handleQuickAdd}
         >
           <Plus className="h-4 w-4" />
         </Button>
@@ -50,7 +75,7 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         
         <div className="flex items-center justify-between">
           <span className="text-2xl font-bold text-primary">${price.toFixed(2)}</span>
-          <Button size="sm" className="bg-accent hover:bg-accent/90">
+          <Button size="sm" className="bg-accent hover:bg-accent/90" onClick={handleAddToCart}>
             Add to Cart
           </Button>
         </div>
