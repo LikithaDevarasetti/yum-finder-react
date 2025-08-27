@@ -49,7 +49,7 @@ const HeroSection = () => {
           to your doorstep in 30 minutes or less.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
+        <div className="flex justify-center animate-slide-up">
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
@@ -58,15 +58,6 @@ const HeroSection = () => {
           >
             {isOrdering ? "Loading..." : "Order Now"}
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          
-          <Button 
-            size="lg" 
-            variant="outline" 
-            className="bg-white/10 border-white/20 text-white hover:bg-white/20"
-            onClick={() => document.querySelector('#featured-section')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            Browse Restaurants
           </Button>
         </div>
 
