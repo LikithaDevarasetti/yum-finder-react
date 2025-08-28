@@ -4,11 +4,12 @@ interface FoodCategoryProps {
   name: string;
   image: string;
   count: number;
+  onClick?: () => void;
 }
 
-const FoodCategory = ({ name, image, count }: FoodCategoryProps) => {
+const FoodCategory = ({ name, image, count, onClick }: FoodCategoryProps) => {
   return (
-    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-2">
+    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-2" onClick={onClick}>
       <div className="aspect-square relative overflow-hidden">
         <img 
           src={image} 

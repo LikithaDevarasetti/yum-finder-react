@@ -4,14 +4,31 @@ import pizzaImage from "@/assets/pizza-card.jpg";
 import burgerImage from "@/assets/burger-card.jpg";
 import saladImage from "@/assets/salad-card.jpg";
 import sushiImage from "@/assets/sushi-card.jpg";
+import tacosImage from "@/assets/tacos-card.jpg";
+import pastaImage from "@/assets/pasta-card.jpg";
+import wingsImage from "@/assets/wings-card.jpg";
+import smoothieImage from "@/assets/smoothie-card.jpg";
 
 const FeaturedSection = () => {
   const categories = [
-    { name: "Pizza", image: pizzaImage, count: 45 },
-    { name: "Burgers", image: burgerImage, count: 32 },
-    { name: "Healthy", image: saladImage, count: 28 },
-    { name: "Sushi", image: sushiImage, count: 21 },
+    { name: "Pizza", image: pizzaImage, count: 15 },
+    { name: "Burgers", image: burgerImage, count: 12 },
+    { name: "Salads", image: saladImage, count: 8 },
+    { name: "Sushi", image: sushiImage, count: 10 },
+    { name: "Tacos", image: tacosImage, count: 14 },
+    { name: "Pasta", image: pastaImage, count: 11 },
+    { name: "Wings", image: wingsImage, count: 9 },
+    { name: "Smoothies", image: smoothieImage, count: 7 },
   ];
+
+  const handleCategoryClick = (categoryName: string) => {
+    // Filter featured dishes by category or show all if no match
+    const section = document.querySelector('#featured-dishes');
+    section?.scrollIntoView({ behavior: 'smooth' });
+    
+    // Here you could add filtering logic in the future
+    console.log(`Clicked on ${categoryName} category`);
+  };
 
   const featuredDishes = [
     {
@@ -72,12 +89,13 @@ const FeaturedSection = () => {
               name={category.name}
               image={category.image}
               count={category.count}
+              onClick={() => handleCategoryClick(category.name)}
             />
           ))}
         </div>
 
         {/* Featured Dishes */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" id="featured-dishes">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-hero-gradient bg-clip-text text-transparent">Featured</span> Dishes
           </h2>

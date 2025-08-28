@@ -4,14 +4,10 @@ import heroImage from "@/assets/hero-food.jpg";
 import { useState } from "react";
 
 const HeroSection = () => {
-  const [isOrdering, setIsOrdering] = useState(false);
-
   const handleOrderNow = () => {
-    setIsOrdering(true);
     // Scroll to featured section
     const featuredSection = document.querySelector('#featured-section');
     featuredSection?.scrollIntoView({ behavior: 'smooth' });
-    setTimeout(() => setIsOrdering(false), 1000);
   };
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
@@ -45,8 +41,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-slide-up">
-          Order from your favorite restaurants and get fresh, hot meals delivered 
-          to your doorstep in 30 minutes or less.
+          "When hunger calls, we deliver perfection. Fresh, hot, and irresistible meals 
+          crafted with love and delivered with lightning speed!"
         </p>
 
         <div className="flex justify-center animate-slide-up">
@@ -54,9 +50,8 @@ const HeroSection = () => {
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
             onClick={handleOrderNow}
-            disabled={isOrdering}
           >
-            {isOrdering ? "Loading..." : "Order Now"}
+            Order Now
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
