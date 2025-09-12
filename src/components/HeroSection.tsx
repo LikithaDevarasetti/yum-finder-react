@@ -56,15 +56,7 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        <div className="grid grid-cols-3 gap-8 mt-16 max-w-md mx-auto text-white/90">
-          <div className="text-center">
-            <div className="text-2xl font-bold">30min</div>
-            <div className="text-sm">Delivery Time</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold">500+</div>
-            <div className="text-sm">Restaurants</div>
-          </div>
+        <div className="grid grid-cols-1 gap-8 mt-16 max-w-md mx-auto text-white/90">
           <div className="text-center">
             <div className="text-2xl font-bold">50k+</div>
             <div className="text-sm">Happy Users</div>
