@@ -210,7 +210,7 @@ const FeaturedSection = () => {
           
           <div 
             id="categories-scroll"
-            className="flex gap-8 overflow-x-auto scrollbar-hide pb-4 mb-16"
+            className="flex gap-8 overflow-x-auto scrollbar-hide pb-4 mb-16 justify-center"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {categories.map((category) => (

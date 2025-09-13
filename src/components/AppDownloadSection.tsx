@@ -6,12 +6,6 @@ const AppDownloadSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-8 lg:mb-0">
-            <div className="flex items-center mb-6">
-              <div className="bg-primary rounded-lg p-3 mr-4">
-                <span className="text-white font-bold text-xl">FE</span>
-              </div>
-              <span className="text-2xl font-bold">FoodieExpress</span>
-            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Get the FoodieExpress website now!
             </h2>
