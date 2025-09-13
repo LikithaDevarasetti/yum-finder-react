@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import FoodCard from "./FoodCard";
 import FoodCategory from "./FoodCategory";
 import pizzaImage from "@/assets/pizza-category.jpg";
@@ -177,16 +179,50 @@ const FeaturedSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {categories.map((category) => (
-            <FoodCategory
-              key={category.name}
-              name={category.name}
-              image={category.image}
-              count={category.count}
-              onClick={() => handleCategoryClick(category.name)}
-            />
-          ))}
+        <div className="relative">
+          <div className="flex justify-between items-center mb-6">
+            <div></div>
+            <div className="flex gap-2">
+              <Button
+                variant="outline"
+                size="icon"
+                className="w-8 h-8 rounded-full"
+                onClick={() => {
+                  const container = document.getElementById('categories-scroll');
+                  if (container) container.scrollBy({ left: -200, behavior: 'smooth' });
+                }}
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                className="w-8 h-8 rounded-full"
+                onClick={() => {
+                  const container = document.getElementById('categories-scroll');
+                  if (container) container.scrollBy({ left: 200, behavior: 'smooth' });
+                }}
+              >
+                <ChevronRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          
+          <div 
+            id="categories-scroll"
+            className="flex gap-8 overflow-x-auto scrollbar-hide pb-4 mb-16"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {categories.map((category) => (
+              <FoodCategory
+                key={category.name}
+                name={category.name}
+                image={category.image}
+                count={category.count}
+                onClick={() => handleCategoryClick(category.name)}
+              />
+            ))}
+          </div>
         </div>
 
         {/* Featured Dishes */}
