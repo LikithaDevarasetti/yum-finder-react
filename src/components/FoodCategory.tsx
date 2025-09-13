@@ -9,8 +9,8 @@ interface FoodCategoryProps {
 
 const FoodCategory = ({ name, image, count, onClick }: FoodCategoryProps) => {
   return (
-    <div className="group cursor-pointer text-center transition-all duration-300 hover:-translate-y-2 flex-shrink-0" onClick={onClick}>
-      <div className="w-20 h-20 mx-auto mb-2 overflow-hidden rounded-full shadow-lg group-hover:shadow-xl transition-all duration-300">
+    <div className="group cursor-pointer text-center transition-all duration-300 hover:-translate-y-2 flex-shrink-0 min-w-0" onClick={onClick}>
+      <div className="w-24 h-24 mx-auto mb-3 overflow-hidden rounded-full shadow-lg group-hover:shadow-xl transition-all duration-300">
         <img 
           src={image} 
           alt={name}
