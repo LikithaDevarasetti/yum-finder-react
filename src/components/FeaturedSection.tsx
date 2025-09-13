@@ -1,14 +1,14 @@
 import { useState } from "react";
 import FoodCard from "./FoodCard";
 import FoodCategory from "./FoodCategory";
-import pizzaImage from "@/assets/pizza-card.jpg";
-import burgerImage from "@/assets/burger-card.jpg";
-import saladImage from "@/assets/salad-card.jpg";
-import sushiImage from "@/assets/sushi-card.jpg";
-import tacosImage from "@/assets/tacos-card.jpg";
-import pastaImage from "@/assets/pasta-card.jpg";
-import wingsImage from "@/assets/wings-card.jpg";
-import smoothieImage from "@/assets/smoothie-card.jpg";
+import pizzaImage from "@/assets/pizza-category.jpg";
+import burgerImage from "@/assets/burger-category.jpg";
+import saladImage from "@/assets/salad-category.jpg";
+import sushiImage from "@/assets/sushi-category.jpg";
+import tacosImage from "@/assets/tacos-category.jpg";
+import pastaImage from "@/assets/pasta-category.jpg";
+import wingsImage from "@/assets/wings-category.jpg";
+import smoothieImage from "@/assets/smoothie-category.jpg";
 
 // Individual dish images
 import pepperoniPizza from "@/assets/pepperoni-pizza.jpg";
