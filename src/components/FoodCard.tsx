@@ -39,7 +39,7 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
   };
   return (
     <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1">
-      <div className="aspect-[4/3] relative overflow-hidden">
+      <div className="aspect-[3/2] relative overflow-hidden h-32">
         <img 
           src={image} 
           alt={name}
@@ -54,18 +54,18 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         </Button>
       </div>
       
-      <CardContent className="p-4">
-        <div className="flex items-start justify-between mb-2">
-          <h3 className="font-semibold text-lg leading-tight">{name}</h3>
-          <div className="flex items-center space-x-1 text-sm">
-            <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+      <CardContent className="p-3">
+        <div className="flex items-start justify-between mb-1">
+          <h3 className="font-semibold text-sm leading-tight">{name}</h3>
+          <div className="flex items-center space-x-1 text-xs">
+            <Star className="h-3 w-3 fill-yellow-400 text-yellow-400" />
             <span>{rating}</span>
           </div>
         </div>
         
-        <p className="text-muted-foreground text-sm mb-3 line-clamp-2">{description}</p>
+        <p className="text-muted-foreground text-xs mb-2 line-clamp-1">{description}</p>
         
-        <div className="flex items-center justify-between text-sm text-muted-foreground mb-3">
+        <div className="flex items-center justify-between text-xs text-muted-foreground mb-2">
           <span className="font-medium">{restaurant}</span>
           <div className="flex items-center space-x-1">
             <Clock className="h-3 w-3" />
@@ -74,9 +74,9 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         </div>
         
         <div className="flex items-center justify-between">
-          <span className="text-2xl font-bold text-primary">${price.toFixed(2)}</span>
-          <Button size="sm" className="bg-accent hover:bg-accent/90" onClick={handleAddToCart}>
-            Add to Cart
+          <span className="text-lg font-bold text-primary">${price.toFixed(2)}</span>
+          <Button size="sm" className="bg-accent hover:bg-accent/90 text-xs px-2 py-1" onClick={handleAddToCart}>
+            Add
           </Button>
         </div>
       </CardContent>
