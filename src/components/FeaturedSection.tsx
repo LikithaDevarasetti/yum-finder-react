@@ -12,13 +12,38 @@ import pastaImage from "@/assets/pasta-category.jpg";
 import wingsImage from "@/assets/wings-category.jpg";
 import smoothieImage from "@/assets/smoothie-category.jpg";
 
-// Individual dish images
+// Pizza images
+import margheritaPizza from "@/assets/margherita-pizza.jpg";
 import pepperoniPizza from "@/assets/pepperoni-pizza.jpg";
 import hawaiianPizza from "@/assets/hawaiian-pizza.jpg";
 import meatLoversPizza from "@/assets/meat-lovers-pizza.jpg";
+import vegetarianPizza from "@/assets/vegetarian-pizza.jpg";
+import bbqChickenPizza from "@/assets/bbq-chicken-pizza.jpg";
+import fourCheesePizza from "@/assets/four-cheese-pizza.jpg";
+import buffaloChickenPizza from "@/assets/buffalo-chicken-pizza.jpg";
+import mushroomPizza from "@/assets/mushroom-pizza.jpg";
+import supremePizza from "@/assets/supreme-pizza.jpg";
+import whitePizza from "@/assets/white-pizza.jpg";
+import spinachPizza from "@/assets/spinach-pizza.jpg";
+import spicyItalianPizza from "@/assets/spicy-italian-pizza.jpg";
+import mediterraneanPizza from "@/assets/mediterranean-pizza.jpg";
+import pestoPizza from "@/assets/pesto-pizza.jpg";
+
+// Burger images
+import classicCheeseburger from "@/assets/classic-cheeseburger.jpg";
 import doubleBaconBurger from "@/assets/double-bacon-burger.jpg";
 import mushroomSwissBurger from "@/assets/mushroom-swiss-burger.jpg";
 import veggieBurger from "@/assets/veggie-burger.jpg";
+import bbqRanchBurger from "@/assets/bbq-ranch-burger.jpg";
+import jalapenoBurger from "@/assets/jalapeno-burger.jpg";
+import turkeyBurger from "@/assets/turkey-burger.jpg";
+import fishBurger from "@/assets/fish-burger.jpg";
+import chickenBurger from "@/assets/chicken-burger.jpg";
+import blueCheeseBurger from "@/assets/blue-cheese-burger.jpg";
+import breakfastBurger from "@/assets/breakfast-burger.jpg";
+import avocadoBurger from "@/assets/avocado-burger.jpg";
+
+// Other individual dish images
 import caesarSalad from "@/assets/caesar-salad.jpg";
 import greekSalad from "@/assets/greek-salad.jpg";
 import quinoaBowl from "@/assets/quinoa-bowl.jpg";
@@ -54,35 +79,35 @@ const FeaturedSection = () => {
 
   const allDishes = [
     // Pizza (15 dishes)
-    { name: "Margherita Pizza", description: "Fresh mozzarella, tomatoes, basil leaves, and olive oil on crispy dough", price: 18.99, image: pepperoniPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Margherita Pizza", description: "Fresh mozzarella, tomatoes, basil leaves, and olive oil on crispy dough", price: 18.99, image: margheritaPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
     { name: "Pepperoni Pizza", description: "Classic pepperoni with mozzarella cheese on traditional crust", price: 19.99, image: pepperoniPizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
     { name: "Hawaiian Pizza", description: "Ham, pineapple, and mozzarella cheese on thin crust", price: 20.99, image: hawaiianPizza, rating: 4.5, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
     { name: "Meat Lovers Pizza", description: "Pepperoni, sausage, ham, and bacon on thick crust", price: 24.99, image: meatLoversPizza, rating: 4.9, deliveryTime: "30-35 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Vegetarian Pizza", description: "Bell peppers, mushrooms, onions, olives, and tomatoes", price: 18.99, image: hawaiianPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "BBQ Chicken Pizza", description: "Grilled chicken, BBQ sauce, red onions, and cilantro", price: 22.99, image: meatLoversPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Four Cheese Pizza", description: "Mozzarella, parmesan, gorgonzola, and ricotta cheese", price: 21.99, image: pepperoniPizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Buffalo Chicken Pizza", description: "Spicy buffalo chicken with ranch dressing and celery", price: 23.99, image: hawaiianPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Mushroom Pizza", description: "Fresh mushrooms with garlic, herbs, and mozzarella", price: 19.99, image: meatLoversPizza, rating: 4.5, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Supreme Pizza", description: "Pepperoni, sausage, peppers, onions, and mushrooms", price: 25.99, image: pepperoniPizza, rating: 4.8, deliveryTime: "30-35 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "White Pizza", description: "Ricotta, mozzarella, garlic, and herbs on white sauce", price: 20.99, image: hawaiianPizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Spinach Pizza", description: "Fresh spinach, feta cheese, and sun-dried tomatoes", price: 21.99, image: meatLoversPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Spicy Italian Pizza", description: "Salami, jalapeños, red pepper flakes, and mozzarella", price: 22.99, image: pepperoniPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Mediterranean Pizza", description: "Olives, sun-dried tomatoes, feta, and basil", price: 23.99, image: hawaiianPizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
-    { name: "Pesto Pizza", description: "Basil pesto, cherry tomatoes, and fresh mozzarella", price: 21.99, image: meatLoversPizza, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Vegetarian Pizza", description: "Bell peppers, mushrooms, onions, olives, and tomatoes", price: 18.99, image: vegetarianPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "BBQ Chicken Pizza", description: "Grilled chicken, BBQ sauce, red onions, and cilantro", price: 22.99, image: bbqChickenPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Four Cheese Pizza", description: "Mozzarella, parmesan, gorgonzola, and ricotta cheese", price: 21.99, image: fourCheesePizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Buffalo Chicken Pizza", description: "Spicy buffalo chicken with ranch dressing and celery", price: 23.99, image: buffaloChickenPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Mushroom Pizza", description: "Fresh mushrooms with garlic, herbs, and mozzarella", price: 19.99, image: mushroomPizza, rating: 4.5, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Supreme Pizza", description: "Pepperoni, sausage, peppers, onions, and mushrooms", price: 25.99, image: supremePizza, rating: 4.8, deliveryTime: "30-35 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "White Pizza", description: "Ricotta, mozzarella, garlic, and herbs on white sauce", price: 20.99, image: whitePizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Spinach Pizza", description: "Fresh spinach, feta cheese, and sun-dried tomatoes", price: 21.99, image: spinachPizza, rating: 4.6, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Spicy Italian Pizza", description: "Salami, jalapeños, red pepper flakes, and mozzarella", price: 22.99, image: spicyItalianPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Mediterranean Pizza", description: "Olives, sun-dried tomatoes, feta, and basil", price: 23.99, image: mediterraneanPizza, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
+    { name: "Pesto Pizza", description: "Basil pesto, cherry tomatoes, and fresh mozzarella", price: 21.99, image: pestoPizza, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Mario's Italian", category: "Pizza" },
 
     // Burgers (12 dishes)
-    { name: "Classic Cheeseburger", description: "Juicy beef patty with cheddar cheese, lettuce, tomato, and secret sauce", price: 15.99, image: doubleBaconBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Classic Cheeseburger", description: "Juicy beef patty with cheddar cheese, lettuce, tomato, and secret sauce", price: 15.99, image: classicCheeseburger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
     { name: "Double Bacon Burger", description: "Two beef patties with crispy bacon, cheese, and BBQ sauce", price: 19.99, image: doubleBaconBurger, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Burger Palace", category: "Burgers" },
     { name: "Mushroom Swiss Burger", description: "Beef patty with sautéed mushrooms and Swiss cheese", price: 17.99, image: mushroomSwissBurger, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
     { name: "Veggie Burger", description: "Plant-based patty with avocado, sprouts, and chipotle mayo", price: 14.99, image: veggieBurger, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "BBQ Ranch Burger", description: "Beef patty with onion rings, BBQ sauce, and ranch dressing", price: 18.99, image: doubleBaconBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Spicy Jalapeño Burger", description: "Pepper jack cheese, jalapeños, and spicy mayo", price: 16.99, image: mushroomSwissBurger, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Turkey Burger", description: "Lean turkey patty with cranberry sauce and swiss", price: 16.99, image: veggieBurger, rating: 4.4, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Fish Burger", description: "Crispy fish fillet with tartar sauce and lettuce", price: 17.99, image: doubleBaconBurger, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Chicken Burger", description: "Grilled chicken breast with herb mayo and tomato", price: 15.99, image: mushroomSwissBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Blue Cheese Burger", description: "Beef patty with blue cheese crumbles and caramelized onions", price: 18.99, image: veggieBurger, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Breakfast Burger", description: "Beef patty with fried egg, bacon, and hash browns", price: 19.99, image: doubleBaconBurger, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Burger Palace", category: "Burgers" },
-    { name: "Avocado Burger", description: "Beef patty with fresh avocado, sprouts, and lime mayo", price: 17.99, image: mushroomSwissBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "BBQ Ranch Burger", description: "Beef patty with onion rings, BBQ sauce, and ranch dressing", price: 18.99, image: bbqRanchBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Spicy Jalapeño Burger", description: "Pepper jack cheese, jalapeños, and spicy mayo", price: 16.99, image: jalapenoBurger, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Turkey Burger", description: "Lean turkey patty with cranberry sauce and swiss", price: 16.99, image: turkeyBurger, rating: 4.4, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Fish Burger", description: "Crispy fish fillet with tartar sauce and lettuce", price: 17.99, image: fishBurger, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Chicken Burger", description: "Grilled chicken breast with herb mayo and tomato", price: 15.99, image: chickenBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Blue Cheese Burger", description: "Beef patty with blue cheese crumbles and caramelized onions", price: 18.99, image: blueCheeseBurger, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Breakfast Burger", description: "Beef patty with fried egg, bacon, and hash browns", price: 19.99, image: breakfastBurger, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Burger Palace", category: "Burgers" },
+    { name: "Avocado Burger", description: "Beef patty with fresh avocado, sprouts, and lime mayo", price: 17.99, image: avocadoBurger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace", category: "Burgers" },
 
     // Salads (8 dishes)
     { name: "Rainbow Buddha Bowl", description: "Quinoa, avocado, roasted vegetables, chickpeas with tahini dressing", price: 14.99, image: quinoaBowl, rating: 4.9, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },

@@ -1,4 +1,9 @@
 import qrCode from "@/assets/qr-code.png";
+import pizzaCard from "@/assets/pizza-card.jpg";
+import burgerCard from "@/assets/burger-card.jpg";
+import saladCard from "@/assets/salad-card.jpg";
+import tacosCard from "@/assets/tacos-card.jpg";
+import smoothieCard from "@/assets/smoothie-card.jpg";
 
 const AppDownloadSection = () => {
   return (
@@ -7,7 +12,7 @@ const AppDownloadSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Get the FoodieExpress website now!
+              Get the FoodieExpress App now!
             </h2>
             <p className="text-gray-300 text-lg">
               For best offers and discounts curated specially for you.
@@ -44,27 +49,27 @@ const AppDownloadSection = () => {
               {/* Floating food elements */}
               <div className="absolute -top-6 -left-8 z-30">
                 <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg">
-                  <img src="/src/assets/pizza-card.jpg" alt="Pizza" className="w-full h-full object-cover" />
+                  <img src={pizzaCard} alt="Pizza" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="absolute top-1/4 -left-12 z-30">
                 <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg">
-                  <img src="/src/assets/burger-card.jpg" alt="Burger" className="w-full h-full object-cover" />
+                  <img src={burgerCard} alt="Burger" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="absolute -bottom-6 left-4 z-30">
                 <div className="w-18 h-18 rounded-full overflow-hidden shadow-lg">
-                  <img src="/src/assets/salad-card.jpg" alt="Salad" className="w-full h-full object-cover" />
+                  <img src={saladCard} alt="Salad" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="absolute top-12 -right-8 z-30">
                 <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg">
-                  <img src="/src/assets/tacos-card.jpg" alt="Tacos" className="w-full h-full object-cover" />
+                  <img src={tacosCard} alt="Tacos" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-6 z-30">
                 <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg">
-                  <img src="/src/assets/smoothie-card.jpg" alt="Smoothie" className="w-full h-full object-cover" />
+                  <img src={smoothieCard} alt="Smoothie" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
