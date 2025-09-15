@@ -4,12 +4,13 @@ interface FoodCategoryProps {
   name: string;
   image: string;
   count: number;
+  isActive?: boolean;
   onClick?: () => void;
 }
 
-const FoodCategory = ({ name, image, count, onClick }: FoodCategoryProps) => {
+const FoodCategory = ({ name, image, count, isActive = false, onClick }: FoodCategoryProps) => {
   return (
-    <div className="group cursor-pointer text-center transition-all duration-300 hover:-translate-y-2 flex-shrink-0 min-w-0" onClick={onClick}>
+    <div className={`group cursor-pointer text-center transition-all duration-300 hover:-translate-y-2 flex-shrink-0 min-w-0 ${isActive ? 'transform -translate-y-1' : ''}`} onClick={onClick}>
       <div className="w-24 h-24 mx-auto mb-3 overflow-hidden rounded-full shadow-lg group-hover:shadow-xl transition-all duration-300">
         <img 
           src={image} 

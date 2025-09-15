@@ -12,11 +12,8 @@ import pastaImage from "@/assets/pasta-category.jpg";
 import wingsImage from "@/assets/wings-category.jpg";
 import smoothieImage from "@/assets/smoothie-category.jpg";
 
-// Pizza images
+// Import all pizza images
 import margheritaPizza from "@/assets/margherita-pizza.jpg";
-import pepperoniPizza from "@/assets/pepperoni-pizza.jpg";
-import hawaiianPizza from "@/assets/hawaiian-pizza.jpg";
-import meatLoversPizza from "@/assets/meat-lovers-pizza.jpg";
 import vegetarianPizza from "@/assets/vegetarian-pizza.jpg";
 import bbqChickenPizza from "@/assets/bbq-chicken-pizza.jpg";
 import fourCheesePizza from "@/assets/four-cheese-pizza.jpg";
@@ -28,12 +25,12 @@ import spinachPizza from "@/assets/spinach-pizza.jpg";
 import spicyItalianPizza from "@/assets/spicy-italian-pizza.jpg";
 import mediterraneanPizza from "@/assets/mediterranean-pizza.jpg";
 import pestoPizza from "@/assets/pesto-pizza.jpg";
+import hawaiianPizza from "@/assets/hawaiian-pizza.jpg";
+import pepperoniPizza from "@/assets/pepperoni-pizza.jpg";
+import meatLoversPizza from "@/assets/meat-lovers-pizza.jpg";
 
-// Burger images
+// Import all burger images
 import classicCheeseburger from "@/assets/classic-cheeseburger.jpg";
-import doubleBaconBurger from "@/assets/double-bacon-burger.jpg";
-import mushroomSwissBurger from "@/assets/mushroom-swiss-burger.jpg";
-import veggieBurger from "@/assets/veggie-burger.jpg";
 import bbqRanchBurger from "@/assets/bbq-ranch-burger.jpg";
 import jalapenoBurger from "@/assets/jalapeno-burger.jpg";
 import turkeyBurger from "@/assets/turkey-burger.jpg";
@@ -42,26 +39,99 @@ import chickenBurger from "@/assets/chicken-burger.jpg";
 import blueCheeseBurger from "@/assets/blue-cheese-burger.jpg";
 import breakfastBurger from "@/assets/breakfast-burger.jpg";
 import avocadoBurger from "@/assets/avocado-burger.jpg";
+import mushroomSwissBurger from "@/assets/mushroom-swiss-burger.jpg";
+import doubleBaconBurger from "@/assets/double-bacon-burger.jpg";
+import veggieBurger from "@/assets/veggie-burger.jpg";
 
-// Other individual dish images
+// Import all salad images
 import caesarSalad from "@/assets/caesar-salad.jpg";
 import greekSalad from "@/assets/greek-salad.jpg";
 import quinoaBowl from "@/assets/quinoa-bowl.jpg";
-import salmonSushi from "@/assets/salmon-sushi.jpg";
+import asianChickenSalad from "@/assets/asian-chicken-salad.jpg";
+import capreseSalad from "@/assets/caprese-salad.jpg";
+import tacoSalad from "@/assets/taco-salad.jpg";
+import chickenCaesarSalad from "@/assets/chicken-caesar-salad.jpg";
+import quinoaPowerBowl from "@/assets/quinoa-power-bowl.jpg";
+
+// Import all sushi images  
 import dragonRoll from "@/assets/dragon-roll.jpg";
 import rainbowRoll from "@/assets/rainbow-roll.jpg";
-import fishTacos from "@/assets/fish-tacos.jpg";
+import salmonSushi from "@/assets/salmon-sushi.jpg";
+import spicyTunaRoll from "@/assets/spicy-tuna-roll.jpg";
+import philadelphiaRoll from "@/assets/philadelphia-roll.jpg";
+import californiaRoll from "@/assets/california-roll.jpg";
+import tempuraRoll from "@/assets/tempura-roll.jpg";
+import chirashiBowl from "@/assets/chirashi-bowl.jpg";
+import salmonNigiri from "@/assets/salmon-nigiri.jpg";
+import tunaSashimi from "@/assets/tuna-sashimi.jpg";
+import vegetableRoll from "@/assets/vegetable-roll.jpg";
+import sashimiPlatter from "@/assets/sashimi-platter.jpg";
+
+// Import all tacos images
 import carnitasTacos from "@/assets/carnitas-tacos.jpg";
+import fishTacos from "@/assets/fish-tacos.jpg";
 import shrimpTacos from "@/assets/shrimp-tacos.jpg";
+import chickenTacos from "@/assets/chicken-tacos.jpg";
+import beefTacos from "@/assets/beef-tacos.jpg";
+import veggieTacos from "@/assets/veggie-tacos.jpg";
+import alPastorTacos from "@/assets/al-pastor-tacos.jpg";
+import barbacoa from "@/assets/barbacoa-tacos.jpg";
+import chorizoTacos from "@/assets/chorizo-tacos.jpg";
+import breakfastTacos from "@/assets/breakfast-tacos.jpg";
+import steakTacos from "@/assets/steak-tacos.jpg";
+import quesadillaTacos from "@/assets/quesadilla-tacos.jpg";
+import buffaloChickenTacos from "@/assets/buffalo-chicken-tacos.jpg";
+import koreanBbqTacos from "@/assets/korean-bbq-tacos.jpg";
+
+// Import all pasta images
 import fettuccineAlfredo from "@/assets/fettuccine-alfredo.jpg";
-import lasagna from "@/assets/lasagna.jpg";
 import pestoLinguine from "@/assets/pesto-linguine.jpg";
+import lasagna from "@/assets/lasagna.jpg";
+import spaghettiCarbonara from "@/assets/spaghetti-carbonara.jpg";
+import penneArrabbiata from "@/assets/penne-arrabbiata.jpg";
+import chickenParmigiana from "@/assets/chicken-parmigiana.jpg";
+import ravioli from "@/assets/ravioli.jpg";
+import seafoodLinguine from "@/assets/seafood-linguine.jpg";
+import gnocchi from "@/assets/gnocchi.jpg";
+import tortellini from "@/assets/tortellini.jpg";
+import macaroniCheese from "@/assets/macaroni-cheese.jpg";
+import vegetablePrimavera from "@/assets/vegetable-primavera.jpg";
+import bolognese from "@/assets/bolognese.jpg";
+import cacioEPepe from "@/assets/cacio-e-pepe.jpg";
+
+// Import all wings images
+import bbqWings from "@/assets/bbq-wings.jpg";
 import honeyGarlicWings from "@/assets/honey-garlic-wings.jpg";
 import koreanWings from "@/assets/korean-wings.jpg";
-import bbqWings from "@/assets/bbq-wings.jpg";
-import tropicalSmoothie from "@/assets/tropical-smoothie.jpg";
+import buffaloWings from "@/assets/buffalo-wings.jpg";
+import teriyakiWings from "@/assets/teriyaki-wings.jpg";
+import lemonPepperWings from "@/assets/lemon-pepper-wings.jpg";
+import hotWings from "@/assets/hot-wings.jpg";
+import parmesanWings from "@/assets/parmesan-wings.jpg";
+import jamaicanJerkWings from "@/assets/jamaican-jerk-wings.jpg";
+import dryRubWings from "@/assets/dry-rub-wings.jpg";
+import nashvilleHotWings from "@/assets/nashville-hot-wings.jpg";
+import cajunWings from "@/assets/cajun-wings.jpg";
+import thaiChiliWings from "@/assets/thai-chili-wings.jpg";
+import mapleBourbonWings from "@/assets/maple-bourbon-wings.jpg";
+import ranchWings from "@/assets/ranch-wings.jpg";
+
+// Import all smoothie images
 import greenSmoothie from "@/assets/green-smoothie.jpg";
+import tropicalSmoothie from "@/assets/tropical-smoothie.jpg";
 import chocolatePbSmoothie from "@/assets/chocolate-pb-smoothie.jpg";
+import berryBlastSmoothie from "@/assets/berry-blast-smoothie.jpg";
+import proteinPowerSmoothie from "@/assets/protein-power-smoothie.jpg";
+import acaiBowlSmoothie from "@/assets/acai-bowl-smoothie.jpg";
+import kaleCleanseSmoothie from "@/assets/kale-cleanse-smoothie.jpg";
+import strawberryBananaSmoothie from "@/assets/strawberry-banana-smoothie.jpg";
+import mangoLassiSmoothie from "@/assets/mango-lassi-smoothie.jpg";
+import avocadoDreamSmoothie from "@/assets/avocado-dream-smoothie.jpg";
+import coffeeSmoothie from "@/assets/coffee-smoothie.jpg";
+import dragonFruitSmoothie from "@/assets/dragon-fruit-smoothie.jpg";
+import turmericGoldenSmoothie from "@/assets/turmeric-golden-smoothie.jpg";
+import cherryVanillaSmoothie from "@/assets/cherry-vanilla-smoothie.jpg";
+import matchaGreenTeaSmoothie from "@/assets/matcha-green-tea-smoothie.jpg";
 
 const FeaturedSection = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -113,162 +183,169 @@ const FeaturedSection = () => {
     { name: "Rainbow Buddha Bowl", description: "Quinoa, avocado, roasted vegetables, chickpeas with tahini dressing", price: 14.99, image: quinoaBowl, rating: 4.9, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
     { name: "Caesar Salad", description: "Romaine lettuce, parmesan, croutons, and caesar dressing", price: 12.99, image: caesarSalad, rating: 4.5, deliveryTime: "10-15 min", restaurant: "Green Garden", category: "Salads" },
     { name: "Greek Salad", description: "Mixed greens, feta, olives, tomatoes, and olive oil dressing", price: 13.99, image: greekSalad, rating: 4.7, deliveryTime: "10-15 min", restaurant: "Green Garden", category: "Salads" },
-    { name: "Chicken Caesar Salad", description: "Grilled chicken over caesar salad with extra parmesan", price: 16.99, image: caesarSalad, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
-    { name: "Quinoa Power Bowl", description: "Quinoa, kale, sweet potato, nuts, and balsamic vinaigrette", price: 15.99, image: quinoaBowl, rating: 4.8, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
-    { name: "Asian Chicken Salad", description: "Mixed greens, grilled chicken, sesame dressing, and crispy noodles", price: 16.99, image: saladImage, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
-    { name: "Caprese Salad", description: "Fresh mozzarella, tomatoes, basil, and balsamic glaze", price: 13.99, image: saladImage, rating: 4.6, deliveryTime: "10-15 min", restaurant: "Green Garden", category: "Salads" },
-    { name: "Taco Salad", description: "Lettuce, beans, cheese, salsa, avocado in tortilla bowl", price: 14.99, image: saladImage, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
+    { name: "Chicken Caesar Salad", description: "Grilled chicken over caesar salad with extra parmesan", price: 16.99, image: chickenCaesarSalad, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
+    { name: "Quinoa Power Bowl", description: "Quinoa, kale, sweet potato, nuts, and balsamic vinaigrette", price: 15.99, image: quinoaPowerBowl, rating: 4.8, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
+    { name: "Asian Chicken Salad", description: "Mixed greens, grilled chicken, sesame dressing, and crispy noodles", price: 16.99, image: asianChickenSalad, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
+    { name: "Caprese Salad", description: "Fresh mozzarella, tomatoes, basil, and balsamic glaze", price: 13.99, image: capreseSalad, rating: 4.6, deliveryTime: "10-15 min", restaurant: "Green Garden", category: "Salads" },
+    { name: "Taco Salad", description: "Lettuce, beans, cheese, salsa, avocado in tortilla bowl", price: 14.99, image: tacoSalad, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Green Garden", category: "Salads" },
 
     // Sushi (10 dishes)
     { name: "Sushi Combo Deluxe", description: "8 pieces of premium nigiri with California and spicy tuna rolls", price: 32.99, image: salmonSushi, rating: 4.7, deliveryTime: "30-35 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Salmon Lover Set", description: "6 pieces salmon nigiri with salmon avocado roll", price: 28.99, image: salmonSushi, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Salmon Lover Set", description: "6 pieces salmon nigiri with salmon avocado roll", price: 28.99, image: salmonNigiri, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Tokyo Express", category: "Sushi" },
     { name: "Dragon Roll", description: "Eel, cucumber inside, avocado on top with eel sauce", price: 16.99, image: dragonRoll, rating: 4.9, deliveryTime: "20-25 min", restaurant: "Tokyo Express", category: "Sushi" },
     { name: "Rainbow Roll", description: "California roll topped with assorted sashimi", price: 18.99, image: rainbowRoll, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Spicy Tuna Roll", description: "Spicy tuna with cucumber and avocado", price: 12.99, image: dragonRoll, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Philadelphia Roll", description: "Salmon, cream cheese, and cucumber", price: 13.99, image: salmonSushi, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Chirashi Bowl", description: "Assorted sashimi over sushi rice with miso soup", price: 24.99, image: rainbowRoll, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Tempura Roll", description: "Shrimp tempura with avocado and cucumber", price: 14.99, image: dragonRoll, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Vegetable Roll", description: "Cucumber, avocado, and pickled radish", price: 8.99, image: salmonSushi, rating: 4.4, deliveryTime: "10-15 min", restaurant: "Tokyo Express", category: "Sushi" },
-    { name: "Sashimi Platter", description: "15 pieces of assorted fresh sashimi", price: 29.99, image: rainbowRoll, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Spicy Tuna Roll", description: "Spicy tuna with cucumber and avocado", price: 12.99, image: spicyTunaRoll, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Philadelphia Roll", description: "Salmon, cream cheese, and cucumber", price: 13.99, image: philadelphiaRoll, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Chirashi Bowl", description: "Assorted sashimi over sushi rice with miso soup", price: 24.99, image: chirashiBowl, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Tempura Roll", description: "Shrimp tempura with avocado and cucumber", price: 14.99, image: tempuraRoll, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "California Roll", description: "Crab, avocado, and cucumber", price: 11.99, image: californiaRoll, rating: 4.4, deliveryTime: "15-20 min", restaurant: "Tokyo Express", category: "Sushi" },
+    { name: "Sashimi Platter", description: "15 pieces of assorted fresh sashimi", price: 29.99, image: sashimiPlatter, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Tokyo Express", category: "Sushi" },
 
     // Tacos (14 dishes)
-    { name: "Beef Tacos", description: "Seasoned ground beef with lettuce, cheese, and salsa", price: 12.99, image: carnitasTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Chicken Tacos", description: "Grilled chicken with cilantro, onions, and lime", price: 12.99, image: fishTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Beef Tacos", description: "Seasoned ground beef with lettuce, cheese, and salsa", price: 12.99, image: beefTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Chicken Tacos", description: "Grilled chicken with cilantro, onions, and lime", price: 12.99, image: chickenTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
     { name: "Fish Tacos", description: "Beer-battered fish with cabbage slaw and chipotle mayo", price: 15.99, image: fishTacos, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
     { name: "Carnitas Tacos", description: "Slow-cooked pork with onions and cilantro", price: 14.99, image: carnitasTacos, rating: 4.9, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Veggie Tacos", description: "Black beans, peppers, onions, and avocado", price: 11.99, image: shrimpTacos, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Veggie Tacos", description: "Black beans, peppers, onions, and avocado", price: 11.99, image: veggieTacos, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
     { name: "Shrimp Tacos", description: "Grilled shrimp with mango salsa and lime crema", price: 16.99, image: shrimpTacos, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Al Pastor Tacos", description: "Marinated pork with pineapple and onions", price: 14.99, image: carnitasTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Barbacoa Tacos", description: "Slow-cooked beef with traditional spices", price: 15.99, image: fishTacos, rating: 4.8, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Chorizo Tacos", description: "Mexican sausage with potatoes and peppers", price: 13.99, image: shrimpTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Breakfast Tacos", description: "Scrambled eggs, bacon, cheese, and potatoes", price: 10.99, image: carnitasTacos, rating: 4.5, deliveryTime: "10-15 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Steak Tacos", description: "Grilled steak with peppers and onions", price: 16.99, image: fishTacos, rating: 4.9, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Quesadilla Tacos", description: "Cheese-filled tortilla with your choice of meat", price: 13.99, image: shrimpTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Buffalo Chicken Tacos", description: "Spicy buffalo chicken with blue cheese and celery", price: 14.99, image: carnitasTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
-    { name: "Korean BBQ Tacos", description: "Korean marinated beef with kimchi and sriracha mayo", price: 16.99, image: fishTacos, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Al Pastor Tacos", description: "Marinated pork with pineapple and onions", price: 14.99, image: alPastorTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Barbacoa Tacos", description: "Slow-cooked beef with traditional spices", price: 15.99, image: barbacoa, rating: 4.8, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Chorizo Tacos", description: "Mexican sausage with potatoes and peppers", price: 13.99, image: chorizoTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Breakfast Tacos", description: "Scrambled eggs, bacon, cheese, and potatoes", price: 10.99, image: breakfastTacos, rating: 4.5, deliveryTime: "10-15 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Steak Tacos", description: "Grilled steak with peppers and onions", price: 16.99, image: steakTacos, rating: 4.9, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Quesadilla Tacos", description: "Cheese-filled tortilla with your choice of meat", price: 13.99, image: quesadillaTacos, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Buffalo Chicken Tacos", description: "Spicy buffalo chicken with blue cheese and celery", price: 14.99, image: buffaloChickenTacos, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Taco Fiesta", category: "Tacos" },
+    { name: "Korean BBQ Tacos", description: "Korean marinated beef with kimchi and sriracha mayo", price: 16.99, image: koreanBbqTacos, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Taco Fiesta", category: "Tacos" },
 
     // Pasta (11 dishes)
-    { name: "Spaghetti Carbonara", description: "Spaghetti with eggs, pancetta, parmesan, and black pepper", price: 18.99, image: fettuccineAlfredo, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Spaghetti Carbonara", description: "Spaghetti with eggs, pancetta, parmesan, and black pepper", price: 18.99, image: spaghettiCarbonara, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
     { name: "Fettuccine Alfredo", description: "Fettuccine with creamy parmesan sauce", price: 16.99, image: fettuccineAlfredo, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
     { name: "Lasagna", description: "Layered pasta with meat sauce, ricotta, and mozzarella", price: 19.99, image: lasagna, rating: 4.9, deliveryTime: "30-35 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Penne Arrabbiata", description: "Penne pasta with spicy tomato and garlic sauce", price: 15.99, image: pestoLinguine, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Chicken Parmigiana", description: "Breaded chicken over spaghetti with marinara", price: 21.99, image: lasagna, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Penne Arrabbiata", description: "Penne pasta with spicy tomato and garlic sauce", price: 15.99, image: penneArrabbiata, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Chicken Parmigiana", description: "Breaded chicken over spaghetti with marinara", price: 21.99, image: chickenParmigiana, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Pasta Villa", category: "Pasta" },
     { name: "Pesto Linguine", description: "Linguine with fresh basil pesto and pine nuts", price: 17.99, image: pestoLinguine, rating: 4.7, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Ravioli", description: "Cheese-filled ravioli with tomato or cream sauce", price: 18.99, image: fettuccineAlfredo, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Seafood Linguine", description: "Linguine with shrimp, mussels, and clams in white wine", price: 24.99, image: lasagna, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Gnocchi", description: "Potato dumplings with choice of sauce", price: 16.99, image: pestoLinguine, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Cacio e Pepe", description: "Spaghetti with pecorino cheese and black pepper", price: 15.99, image: fettuccineAlfredo, rating: 4.8, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
-    { name: "Bolognese", description: "Traditional meat sauce over your choice of pasta", price: 19.99, image: lasagna, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Ravioli", description: "Cheese-filled ravioli with tomato or cream sauce", price: 18.99, image: ravioli, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Seafood Linguine", description: "Linguine with shrimp, mussels, and clams in white wine", price: 24.99, image: seafoodLinguine, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Gnocchi", description: "Potato dumplings with sage butter sauce", price: 19.99, image: gnocchi, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Tortellini", description: "Meat-filled pasta with cream sauce", price: 20.99, image: tortellini, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Pasta Villa", category: "Pasta" },
+    { name: "Macaroni and Cheese", description: "Classic comfort food with three cheeses", price: 14.99, image: macaroniCheese, rating: 4.5, deliveryTime: "15-20 min", restaurant: "Pasta Villa", category: "Pasta" },
 
     // Wings (9 dishes)
-    { name: "Buffalo Wings", description: "Classic spicy buffalo wings with blue cheese dip", price: 14.99, image: bbqWings, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "BBQ Wings", description: "Sweet and tangy BBQ glazed chicken wings", price: 14.99, image: bbqWings, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Honey Garlic Wings", description: "Wings tossed in honey garlic sauce", price: 15.99, image: honeyGarlicWings, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Teriyaki Wings", description: "Japanese-style teriyaki glazed wings", price: 15.99, image: koreanWings, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Lemon Pepper Wings", description: "Crispy wings with lemon pepper seasoning", price: 14.99, image: bbqWings, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Spicy Korean Wings", description: "Korean-style spicy gochujang wings", price: 16.99, image: koreanWings, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Parmesan Wings", description: "Wings tossed in garlic parmesan sauce", price: 15.99, image: honeyGarlicWings, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Cajun Wings", description: "Spicy cajun seasoned chicken wings", price: 14.99, image: bbqWings, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Wing Stop", category: "Wings" },
-    { name: "Thai Chili Wings", description: "Sweet and spicy Thai chili glazed wings", price: 16.99, image: koreanWings, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Wing Stop", category: "Wings" },
+    { name: "Buffalo Wings", description: "Classic spicy buffalo sauce with celery and blue cheese", price: 14.99, image: buffaloWings, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "BBQ Wings", description: "Sweet and tangy BBQ glazed chicken wings", price: 14.99, image: bbqWings, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Honey Garlic Wings", description: "Wings tossed in honey garlic sauce", price: 15.99, image: honeyGarlicWings, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Teriyaki Wings", description: "Japanese-style teriyaki glazed wings", price: 15.99, image: teriyakiWings, rating: 4.7, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Lemon Pepper Wings", description: "Crispy wings with lemon pepper seasoning", price: 14.99, image: lemonPepperWings, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Korean Wings", description: "Korean-style spicy gochujang wings", price: 16.99, image: koreanWings, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Hot Wings", description: "Extra spicy wings for heat lovers", price: 14.99, image: hotWings, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Parmesan Wings", description: "Wings tossed in garlic parmesan sauce", price: 15.99, image: parmesanWings, rating: 4.5, deliveryTime: "20-25 min", restaurant: "Wing Zone", category: "Wings" },
+    { name: "Jamaican Jerk Wings", description: "Caribbean spiced jerk seasoned wings", price: 16.99, image: jamaicanJerkWings, rating: 4.7, deliveryTime: "25-30 min", restaurant: "Wing Zone", category: "Wings" },
 
     // Smoothies (7 dishes)
-    { name: "Berry Blast Smoothie", description: "Mixed berries, banana, yogurt, and honey", price: 8.99, image: tropicalSmoothie, rating: 4.8, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
-    { name: "Tropical Paradise", description: "Mango, pineapple, coconut milk, and lime", price: 9.99, image: tropicalSmoothie, rating: 4.9, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
     { name: "Green Machine", description: "Spinach, kale, apple, banana, and ginger", price: 9.99, image: greenSmoothie, rating: 4.7, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
+    { name: "Tropical Paradise", description: "Mango, pineapple, coconut milk, and lime", price: 9.99, image: tropicalSmoothie, rating: 4.9, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
     { name: "Chocolate Peanut Butter", description: "Banana, cocoa, peanut butter, and almond milk", price: 10.99, image: chocolatePbSmoothie, rating: 4.6, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
-    { name: "Strawberry Banana", description: "Classic strawberry banana with vanilla yogurt", price: 8.99, image: greenSmoothie, rating: 4.5, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
-    { name: "Acai Bowl Smoothie", description: "Acai, berries, granola, and coconut flakes", price: 11.99, image: tropicalSmoothie, rating: 4.8, deliveryTime: "10-15 min", restaurant: "Smoothie Bar", category: "Smoothies" },
-    { name: "Protein Power Smoothie", description: "Protein powder, banana, oats, and almond butter", price: 12.99, image: chocolatePbSmoothie, rating: 4.7, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
+    { name: "Berry Blast", description: "Mixed berries, banana, yogurt, and honey", price: 8.99, image: berryBlastSmoothie, rating: 4.8, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
+    { name: "Protein Power", description: "Protein powder, banana, oats, and almond milk", price: 12.99, image: proteinPowerSmoothie, rating: 4.7, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
+    { name: "Acai Bowl", description: "Acai, berries, granola, and coconut", price: 11.99, image: acaiBowlSmoothie, rating: 4.8, deliveryTime: "10-15 min", restaurant: "Smoothie Bar", category: "Smoothies" },
+    { name: "Strawberry Banana", description: "Classic strawberry banana with vanilla", price: 8.99, image: strawberryBananaSmoothie, rating: 4.5, deliveryTime: "5-10 min", restaurant: "Smoothie Bar", category: "Smoothies" },
   ];
 
-  const handleCategoryClick = (categoryName: string) => {
-    setSelectedCategory(categoryName);
-    const section = document.querySelector('#featured-dishes');
-    section?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const featuredItems = [
+    { name: "Margherita Pizza", description: "Fresh mozzarella and basil", price: 18.99, image: margheritaPizza, rating: 4.8, deliveryTime: "25-30 min", restaurant: "Mario's Italian" },
+    { name: "Classic Cheeseburger", description: "Juicy beef with cheddar cheese", price: 15.99, image: classicCheeseburger, rating: 4.6, deliveryTime: "20-25 min", restaurant: "Burger Palace" },
+    { name: "Rainbow Buddha Bowl", description: "Healthy quinoa bowl", price: 14.99, image: quinoaBowl, rating: 4.9, deliveryTime: "15-20 min", restaurant: "Green Garden" },
+    { name: "Dragon Roll", description: "Premium sushi roll", price: 16.99, image: dragonRoll, rating: 4.9, deliveryTime: "20-25 min", restaurant: "Tokyo Express" },
+    { name: "Fish Tacos", description: "Beer-battered with slaw", price: 15.99, image: fishTacos, rating: 4.8, deliveryTime: "20-25 min", restaurant: "Taco Fiesta" },
+    { name: "Fettuccine Alfredo", description: "Creamy parmesan sauce", price: 16.99, image: fettuccineAlfredo, rating: 4.6, deliveryTime: "15-20 min", restaurant: "Pasta Villa" },
+    { name: "Korean Wings", description: "Spicy gochujang glaze", price: 16.99, image: koreanWings, rating: 4.9, deliveryTime: "25-30 min", restaurant: "Wing Zone" },
+    { name: "Tropical Paradise", description: "Mango pineapple smoothie", price: 9.99, image: tropicalSmoothie, rating: 4.9, deliveryTime: "5-10 min", restaurant: "Smoothie Bar" },
+  ];
 
   const filteredDishes = selectedCategory === "All" 
-    ? allDishes.slice(0, 4) // Show only 4 dishes when "All" is selected
+    ? featuredItems 
     : allDishes.filter(dish => dish.category === selectedCategory);
 
+  const categoriesScrollRef = useRef<HTMLDivElement>(null);
+
+  const scrollCategories = (direction: 'left' | 'right') => {
+    if (categoriesScrollRef.current) {
+      const scrollAmount = 200;
+      categoriesScrollRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
-    <div className="py-16 bg-background" id="featured-section">
-      <div className="container mx-auto px-4">
-        {/* Categories Section */}
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted/20">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Browse by <span className="bg-hero-gradient bg-clip-text text-transparent">Category</span>
+          <h2 className="text-3xl font-bold bg-hero-gradient bg-clip-text text-transparent mb-4">
+            Browse by Category
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Discover your favorite dishes from top-rated restaurants in your area
+            Discover amazing dishes from your favorite local restaurants
           </p>
         </div>
 
-        <div className="relative">
-          <div className="flex justify-between items-center mb-6">
-            <div></div>
-            <div className="flex gap-2">
-              <Button
-                variant="outline"
-                size="icon"
-                className="w-8 h-8 rounded-full"
-                onClick={() => {
-                  const container = document.getElementById('categories-scroll');
-                  if (container) container.scrollBy({ left: -200, behavior: 'smooth' });
-                }}
-              >
-                <ChevronLeft className="h-4 w-4" />
-              </Button>
-              <Button
-                variant="outline"
-                size="icon"
-                className="w-8 h-8 rounded-full"
-                onClick={() => {
-                  const container = document.getElementById('categories-scroll');
-                  if (container) container.scrollBy({ left: 200, behavior: 'smooth' });
-                }}
-              >
-                <ChevronRight className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
+        {/* Categories */}
+        <div className="relative mb-12">
+          <Button
+            variant="outline"
+            size="icon"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm border-primary/20 hover:bg-primary/10"
+            onClick={() => scrollCategories('left')}
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </Button>
           
           <div 
-            id="categories-scroll"
-            className="flex gap-8 overflow-x-auto scrollbar-hide pb-4 mb-16 justify-center"
+            ref={categoriesScrollRef}
+            className="flex space-x-4 overflow-x-auto scrollbar-hide px-12 justify-center"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
+            <FoodCategory
+              name="All"
+              image={pizzaImage}
+              count={featuredItems.length}
+              isActive={selectedCategory === "All"}
+              onClick={() => setSelectedCategory("All")}
+            />
             {categories.map((category) => (
               <FoodCategory
                 key={category.name}
                 name={category.name}
                 image={category.image}
                 count={category.count}
-                onClick={() => handleCategoryClick(category.name)}
+                isActive={selectedCategory === category.name}
+                onClick={() => setSelectedCategory(category.name)}
               />
             ))}
           </div>
+          
+          <Button
+            variant="outline"
+            size="icon"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm border-primary/20 hover:bg-primary/10"
+            onClick={() => scrollCategories('right')}
+          >
+            <ChevronRight className="h-4 w-4" />
+          </Button>
         </div>
 
         {/* Featured Dishes */}
-        <div className="text-center mb-12" id="featured-dishes">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="bg-hero-gradient bg-clip-text text-transparent">
-              {selectedCategory === "All" ? "Featured" : selectedCategory}
-            </span> Dishes
-          </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            {selectedCategory === "All" 
-              ? "Hand-picked favorites that our customers love the most"
-              : `Delicious ${selectedCategory.toLowerCase()} dishes just for you`
-            }
-          </p>
+        <div className="text-center mb-8">
+          <h3 className="text-2xl font-bold">
+            {selectedCategory === "All" ? "Featured Dishes" : selectedCategory}
+          </h3>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filteredDishes.map((dish) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {filteredDishes.map((dish, index) => (
             <FoodCard
-              key={dish.name}
+              key={`${dish.name}-${index}`}
               name={dish.name}
               description={dish.description}
               price={dish.price}
@@ -280,7 +357,7 @@ const FeaturedSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
