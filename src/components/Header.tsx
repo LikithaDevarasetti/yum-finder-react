@@ -1,7 +1,5 @@
-import { User } from "lucide-react";
-import { Button } from "@/components/ui/button";
-
 import CartSidebar from "./CartSidebar";
+import ProfileDialog from "./ProfileDialog";
 
 const Header = () => {
   return (
@@ -14,10 +12,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="icon">
-            <User className="h-5 w-5" />
-          </Button>
-          
+          <ProfileDialog />
           <CartSidebar />
         </div>
       </div>
