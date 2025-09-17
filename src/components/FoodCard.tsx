@@ -38,8 +38,8 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
     openCart();
   };
   return (
-    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1 w-64">
-      <div className="aspect-[4/3] relative overflow-hidden">
+    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1 w-48">
+      <div className="aspect-[3/2] relative overflow-hidden h-24">
         <img 
           src={image} 
           alt={name}
