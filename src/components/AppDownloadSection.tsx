@@ -1,4 +1,4 @@
-import qrCodeNew from "@/assets/qr-code-new.png";
+import qrCodeFoodie from "@/assets/qr-code-foodie.png";
 
 const AppDownloadSection = () => {
   return (
@@ -26,12 +26,12 @@ const AppDownloadSection = () => {
                   <div className="pt-12 pb-6 px-4 h-full flex flex-col items-center justify-center">
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
-                        src={qrCodeNew} 
-                        alt="QR Code to view website" 
+                        src={qrCodeFoodie} 
+                        alt="QR Code to download FoodieExpress" 
                         className="w-32 h-32 mb-3"
                       />
                       <p className="text-orange-500 text-center font-semibold text-sm">
-                        Scan to view
+                        Scan to download
                       </p>
                     </div>
                   </div>
