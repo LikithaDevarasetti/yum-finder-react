@@ -38,12 +38,12 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
     openCart();
   };
   return (
-    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1 w-48">
-      <div className="aspect-[3/2] relative overflow-hidden h-24">
+    <Card className="group cursor-pointer overflow-hidden border-0 shadow-food-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1 w-40">
+      <div className="aspect-[4/3] relative overflow-hidden h-20">
         <img 
           src={image} 
           alt={name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
         />
         <Button 
           size="icon" 
@@ -66,7 +66,7 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         <p className="text-muted-foreground text-xs mb-1 line-clamp-1">{description}</p>
         
         <div className="flex items-center justify-between text-xs text-muted-foreground mb-2">
-          <span className="font-medium">{restaurant}</span>
+          <span className="font-medium">FoodieExpress</span>
           <div className="flex items-center space-x-1">
             <Clock className="h-3 w-3" />
             <span>{deliveryTime}</span>
@@ -74,8 +74,8 @@ const FoodCard = ({ name, description, price, image, rating, deliveryTime, resta
         </div>
         
         <div className="flex items-center justify-between">
-          <span className="text-lg font-bold text-primary">₹{(price * 80).toFixed(0)}</span>
-          <Button size="sm" className="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-1 rounded" onClick={handleAddToCart}>
+          <span className="text-sm font-bold text-primary">₹{(price * 80).toFixed(0)}</span>
+          <Button size="sm" className="bg-green-600 hover:bg-green-700 text-white text-xs px-2 py-1 rounded" onClick={handleAddToCart}>
             Add
           </Button>
         </div>
