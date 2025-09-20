@@ -2,14 +2,14 @@ import qrCodeFoodie from "@/assets/qr-code-foodie.png";
 
 const AppDownloadSection = () => {
   return (
-    <div className="bg-gray-900 text-white py-12 relative overflow-hidden">
+    <div className="bg-gray-900 text-white py-8 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between max-w-5xl mx-auto">
-          <div className="lg:w-1/2 mb-6 lg:mb-0 lg:pr-6">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="flex flex-col lg:flex-row items-center justify-between max-w-4xl mx-auto">
+          <div className="lg:w-1/2 mb-4 lg:mb-0 lg:pr-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Get the FoodieExpress website now!
             </h2>
-            <p className="text-gray-300 text-base">
+            <p className="text-gray-300 text-sm">
               For best offers and discounts curated specially for you.
             </p>
           </div>
@@ -17,20 +17,20 @@ const AppDownloadSection = () => {
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative">
               {/* Phone mockup */}
-              <div className="bg-white rounded-[2rem] p-3 shadow-2xl relative z-10 w-56 h-96">
-                <div className="bg-gray-100 rounded-[2rem] w-full h-full relative overflow-hidden">
+              <div className="bg-white rounded-[1.5rem] p-2 shadow-2xl relative z-10 w-40 h-72">
+                <div className="bg-gray-100 rounded-[1.5rem] w-full h-full relative overflow-hidden">
                   {/* Phone notch */}
-                  <div className="absolute top-3 left-1/2 transform -translate-x-1/2 bg-black rounded-full w-16 h-4 z-20"></div>
+                  <div className="absolute top-2 left-1/2 transform -translate-x-1/2 bg-black rounded-full w-10 h-3 z-20"></div>
                   
                   {/* Screen content */}
-                  <div className="pt-12 pb-6 px-4 h-full flex flex-col items-center justify-center">
+                  <div className="pt-8 pb-4 px-3 h-full flex flex-col items-center justify-center">
                     <div className="flex-1 flex flex-col items-center justify-center">
                       <img 
                         src={qrCodeFoodie} 
                         alt="QR Code to download FoodieExpress" 
-                        className="w-32 h-32 mb-3"
+                        className="w-20 h-20 mb-2"
                       />
-                      <p className="text-orange-500 text-center font-semibold text-sm">
+                      <p className="text-orange-500 text-center font-semibold text-xs">
                         Scan to download
                       </p>
                     </div>
@@ -39,19 +39,19 @@ const AppDownloadSection = () => {
               </div>
               
               {/* Floating food emoji-style elements */}
-              <div className="absolute -top-4 -left-6 text-6xl z-30">
+              <div className="absolute -top-3 -left-4 text-3xl z-30">
                 🍕
               </div>
-              <div className="absolute top-1/3 -left-8 text-5xl z-30">
+              <div className="absolute top-1/4 -left-5 text-2xl z-30">
                 🍔
               </div>
-              <div className="absolute -bottom-4 left-6 text-5xl z-30">
+              <div className="absolute -bottom-3 left-4 text-2xl z-30">
                 🥗
               </div>
-              <div className="absolute top-16 -right-6 text-4xl z-30">
+              <div className="absolute top-12 -right-4 text-xl z-30">
                 🌮
               </div>
-              <div className="absolute -bottom-2 -right-4 text-5xl z-30">
+              <div className="absolute -bottom-2 -right-3 text-2xl z-30">
                 🍱
               </div>
             </div>
