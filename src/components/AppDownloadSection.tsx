@@ -44,19 +44,19 @@ const AppDownloadSection = () => {
               </div>
               
               {/* Floating food emoji-style elements */}
-              <div className="absolute -top-3 -left-4 text-3xl z-30">
+              <div className="absolute -top-3 -left-4 text-4xl z-30">
                 🍕
               </div>
-              <div className="absolute top-1/4 -left-5 text-2xl z-30">
+              <div className="absolute top-1/4 -left-5 text-3xl z-30">
                 🍔
               </div>
-              <div className="absolute -bottom-3 left-4 text-2xl z-30">
+              <div className="absolute -bottom-3 left-4 text-3xl z-30">
                 🥗
               </div>
-              <div className="absolute top-12 -right-4 text-xl z-30">
+              <div className="absolute top-12 -right-4 text-3xl z-30">
                 🌮
               </div>
-              <div className="absolute -bottom-2 -right-3 text-2xl z-30">
+              <div className="absolute -bottom-2 -right-3 text-3xl z-30">
                 🍱
               </div>
             </div>
