@@ -28,7 +28,7 @@ const AppDownloadSection = () => {
                       <img 
                         src={qrCodeFoodie} 
                         alt="QR Code to download FoodieExpress" 
-                        className="w-20 h-20 mb-2"
+                        className="w-32 h-32 mb-2"
                       />
                       <p className="text-orange-500 text-center font-semibold text-xs">
                         Scan to download
