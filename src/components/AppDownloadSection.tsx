@@ -1,4 +1,5 @@
 import qrCodeFoodie from "@/assets/qr-code-foodie.png";
+import logo from "@/assets/foodie-express-logo.png";
 
 const AppDownloadSection = () => {
   return (
@@ -6,6 +7,10 @@ const AppDownloadSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto gap-8">
           <div className="lg:w-1/2 mb-4 lg:mb-0 text-left lg:pl-8">
+            <div className="flex items-center space-x-3 mb-4">
+              <img src={logo} alt="FoodieExpress Logo" className="h-12 w-12" />
+              <span className="text-2xl font-bold">FoodieExpress</span>
+            </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
               Get the FoodieExpress website now!
             </h2>
