@@ -4,8 +4,8 @@ const AppDownloadSection = () => {
   return (
     <div className="bg-gray-900 text-white py-8 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between max-w-4xl mx-auto">
-          <div className="lg:w-1/2 mb-4 lg:mb-0 lg:pr-4 text-left">
+        <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto gap-8">
+          <div className="lg:w-1/2 mb-4 lg:mb-0 text-left lg:pl-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-3">
               Get the FoodieExpress website now!
             </h2>
@@ -14,7 +14,7 @@ const AppDownloadSection = () => {
             </p>
           </div>
           
-          <div className="lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="lg:w-1/2 flex justify-center lg:justify-end lg:pr-8">
             <div className="relative">
               {/* Phone mockup */}
               <div className="bg-white rounded-[1.5rem] p-2 shadow-2xl relative z-10 w-40 h-72">
