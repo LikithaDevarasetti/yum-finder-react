@@ -5,8 +5,8 @@ const AppDownloadSection = () => {
     <div className="bg-gray-900 text-white py-8 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-4xl mx-auto">
-          <div className="lg:w-1/2 mb-4 lg:mb-0 lg:pr-4">
-            <h2 className="text-2xl md:text-3xl font-bold mb-3">
+          <div className="lg:w-1/2 mb-4 lg:mb-0 lg:pr-4 text-left">
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
               Get the FoodieExpress website now!
             </h2>
             <p className="text-gray-300 text-sm">
