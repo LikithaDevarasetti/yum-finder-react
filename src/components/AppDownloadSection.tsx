@@ -1,5 +1,9 @@
 import qrCodeFoodie from "@/assets/qr-code-foodie.png";
 import logo from "@/assets/foodie-express-logo.png";
+import burger3d from "@/assets/3d-burger.png";
+import taco3d from "@/assets/3d-taco.png";
+import foodbox3d from "@/assets/3d-foodbox.png";
+import pizza3d from "@/assets/3d-pizza.png";
 
 const AppDownloadSection = () => {
   return (
@@ -43,22 +47,27 @@ const AppDownloadSection = () => {
                 </div>
               </div>
               
-              {/* Floating food emoji-style elements */}
-              <div className="absolute -top-3 -left-4 text-4xl z-30">
-                🍕
-              </div>
-              <div className="absolute top-1/4 -left-5 text-3xl z-30">
-                🍔
-              </div>
-              <div className="absolute -bottom-3 left-4 text-3xl z-30">
-                🥗
-              </div>
-              <div className="absolute top-12 -right-4 text-3xl z-30">
-                🌮
-              </div>
-              <div className="absolute -bottom-2 -right-3 text-3xl z-30">
-                🍱
-              </div>
+              {/* Floating 3D food elements */}
+              <img 
+                src={pizza3d} 
+                alt="Pizza" 
+                className="absolute -top-6 -left-8 w-20 h-20 z-30 drop-shadow-2xl"
+              />
+              <img 
+                src={burger3d} 
+                alt="Burger" 
+                className="absolute top-1/4 -left-12 w-24 h-24 z-30 drop-shadow-2xl"
+              />
+              <img 
+                src={taco3d} 
+                alt="Taco" 
+                className="absolute top-8 -right-8 w-20 h-20 z-30 drop-shadow-2xl"
+              />
+              <img 
+                src={foodbox3d} 
+                alt="Food Box" 
+                className="absolute -bottom-4 right-0 w-24 h-24 z-30 drop-shadow-2xl"
+              />
             </div>
           </div>
         </div>
